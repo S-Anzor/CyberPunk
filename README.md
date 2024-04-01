@@ -1,1 +1,1 @@
-# school project CyberPunk
+# academy project CyberPunk
