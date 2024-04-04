@@ -29,7 +29,7 @@ body {
 
 :root {
   --text-primary: #000;
-  --text-secondary: #52BEDC;
+  --text-secondary: #777;
   --bg-body: #fff;
   --white-text: #fff;
   --bg-item: #000;
@@ -41,7 +41,6 @@ body {
 }
 
 .container {
-  min-width: var(--mobile);
   width: 90%;
   margin: 0 auto;
   padding: 0 12px;
@@ -61,6 +60,7 @@ body {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  margin-bottom: 120px;
   justify-content: space-between;
 }
 @media (min-width: 500px) {
@@ -182,4 +182,35 @@ body {
     font-size: 24px;
     width: 290px;
   }
+}
+
+.info__title {
+  font-weight: 400;
+  font-size: 30px;
+  color: var(--text-primary);
+  font-family: "Archangelsk";
+  margin-bottom: 25px;
+}
+.info__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 200%;
+  color: var(--text-secondary);
+}
+
+.text-blue {
+  font-weight: 700;
+  color: var(--blue-text);
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+}
+.images img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
