@@ -1,111 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CyberPunk</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
+        <header class="header">
 
-<body>
-
-    <header class="header">
-        <div class="container">
-            <nav class="nav">
-                <a href="./index.html" class="nav__logo"><img src="./images/logo.svg" alt="logo"></a>
-                <div class="nav__links">
-                    <a class="nav__link" href="#"><img class="nav__icon" src="./images/facebook.svg" alt="facebook"></a>
-                    <a class="nav__link" href="#"><img class="nav__icon" src="./images/instagram.svg"
-                            alt="instagram"></a>
-                    <a class="nav__link" href="#"><img class="nav__icon" src="./images/twitch.svg" alt="twitch"></a>
-                    <a class="nav__link" href="#"><img class="nav__icon" src="./images/twitter.svg" alt="twitter"></a>
-                    <a class="nav__link" href="#"><img class="nav__icon" src="./images/vk.svg" alt="vk"></a>
-                    <a class="nav__link" href="#"> <img class="nav__icon" src="./images/YouTube.svg" alt="YouTube"></a>
-                </div>
-
-            </nav>
-        </div>
-        <div class="square">
-            <h1 class="square__title">Доступно на всех платформах</h1>
-            <button class="square__btn">Узнать больше</button>
-        </div>
-    </header>
-    <main>
-        <section class="info">
             <div class="container">
-                <h3 class="info__title">Найт-Сити изменит тебя навсегда!</h3>
-                <p class="info__desc"><span class="text-blue">Cyberpunk 2077</span> — приключенческая ролевая игра,
-                    действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся
-                    выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты
-                    сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои
-                    поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+
+                <nav class="nav">
+                    <a href="./index.html"><img class="nav__logo"
+                            src="./images/logo.svg" alt="logo"></a>
+                    <div class="nav__links">
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/YouTube.svg"
+                                alt="иконка youtube">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/vk.svg"
+                                alt="иконка vk">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/facebook.svg"
+                                alt="иконка facebook">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/twitter.svg"
+                                alt="иконка twitter">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/twitch.svg"
+                                alt="иконка twitch">
+                        </a>
+                        <a class="nav__link" href="#">
+                            <img class="nav__icon" src="./images/instagram.svg"
+                                alt="иконка instagramm">
+                        </a>
+                    </div>
+                </nav>
             </div>
-            <div class="images">
-                <picture class="image-1">
-                    <source media="(min-width:768px)" srcset="./images/info-tablet1.jpg">
-                    <source media="(min-width:400px)" srcset="./images/info-mobile1.jpg">
-                    <img src="./images/info-mobile1.jpg" alt="">
-                </picture>
 
-                <picture class="image-2">
-                    <source media="(min-width:768px)" srcset="./images/info-tablet2.jpg">
-                    <source media="(min-width:400px)" srcset="./images/info-mobile2.jpg">
-                    <img src="./images/info-mobile2.jpg" alt="">
-                </picture>
-
-                <picture class="image-3">
-                    <source media="(min-width:1024px)" srcset="./images/info-desctop.jpg">
-                    <source media="(min-width:768px)" srcset="./images/info-tablet3.jpg">
-                    <source media="(min-width:400px)" srcset="./images/info-mobile3.jpg">
-                    <img src="./images/info-mobile3.jpg" alt="">
-                </picture>
-
-
+            <div class="square">
+                <h1 class="square__title">Доступно на всех платформах</h1>
+                <button class="square__btn">Узнать больше</button>
             </div>
-        </section>
-        <div class="wrapper">
-            <section class="form">
+
+        </header>
+
+        <main>
+            <section class="info">
                 <div class="container">
+                    <h3 class="info__title">Найт-Сити изменит тебя
+                        навсегда!</h3>
+                    <p class="info__desc"><span class="text-blue">Cyberpunk
+                            2077</span>
+                        — приключенческая
+                        ролевая игра, действие которой происходит в мегаполисе
+                        Найт-Сити, где власть, роскошь и модификации тела
+                        ценятся выше всего. Ты играешь за V, наёмника в поисках
+                        устройства, позволяющего обрести бессмертие. Ты сможешь
+                        менять киберимпланты, навыки и стиль игры своего
+                        персонажа, исследуя открытый мир, где твои поступки
+                        влияют на ход сюжета и всё, что тебя окружает.
+                    </p>
+                </div>
+                <div class="images">
+                    <picture class="image-1">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet1.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile1.jpg">
+                        <img src="./images/info-mobile1.jpg" alt="img">
+                    </picture>
+
+                    <picture class="image-2">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet2.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile2.jpg">
+                        <img src="./images/info-mobile2.jpg" alt="img">
+                    </picture>
+
+                    <picture class="image-3">
+                        <source media="(min-width: 1024px)"
+                            srcset="./images/info-desctop3.jpg">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet3.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile3.jpg">
+                        <img src="./images/info-mobile3.jpg" alt="img">
+                    </picture>
+
+                </div>
+            </section>
+
+            <section class="form">
+
+                <div class="container">
+
                     <div class="wrapper">
+
+                        <div class="sale"></div>
+
                         <div class="form-images">
-                            <img src="./images/xbox-phone.png" alt="xbox" class="form-image1">
-                            <img src="./images/ps5-phone.png" alt="play station" class="form-image1">
+
+                            <picture class="pic1">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img1-tablet.png">
+                                <source media="(min-width: 400px)"
+                                    src="./images/img1-mobile.png">
+
+                                <img src="./images/img1-mobile.png" alt="x-box">
+                            </picture>
+
+                            <picture>
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img2-tablet.png">
+                                <source media="(min-width: 400px)"
+                                    srcset="./images/img2-mobile.png">
+
+                                <img src="./images/img2-mobile.png" alt="ps">
+                            </picture>
+
                         </div>
 
                         <div class="form-desc">
-                            <h3 class="form-title">Играй и выигрывай!</h3>
-                            <p class="form-description">Играй в <span class="text-blue">Cyberpunk 2077</span> и получи
-                                возможность выиграть консоль <span class="text-blue">Xbox Series X</span>
-                                или <span class="text-blue">Sony PlayStation 5!</span> Заполни форму ниже и приложи
-                                скриншот
-                                о покупке игры. Итоги розыгрыша будут
-                                подведены 1 февраля. Удачи! ;)
+                            <h3 class="form__title">Играй и выигрывай!</h3>
+                            <p class="form__description">Играй в <span
+                                    class="text-blue">Cyberpunk 2077</span> и
+                                получи возможность выиграть консоль <span
+                                    class="text-blue">Xbox Series
+                                    X</span> или <span class="text-blue">Sony
+                                    PlayStation 5!</span> Заполни форму ниже и
+                                приложи скриншот о покупке игры. Итоги розыгрыша
+                                будут подведены 1 февраля. Удачи! ;)
                             </p>
+
                             <form action="#" method="post">
                                 <label for="name"></label>
-                                <input id="name" name="name" required placeholder="Как тебя зовут?" class="input"
-                                    type="text">
+                                <input id="name" class="input" type="text"
+                                    name="name" required
+                                    placeholder="Как тебя зовут?">
                                 <label for="email"></label>
-                                <input id="email" class="input" name="email" required placeholder="Твой email"
-                                    type="email">
-                                <label class="label-file" for="file">Прикрепить скриншот</label>
+                                <input id="email" class="input" type="email"
+                                    name="email" required
+                                    placeholder="Твой е-mail">
+                                <label class="label-file" for="file">Прикрепить
+                                    скриншот</label>
                                 <input type="file" id="file" class="file">
                                 <button class="form-btn">Отправить</button>
-                                <input class="checkbox" type="checkbox" id="checkbox">
-                                <label for="checkbox" class="label-checkbox">Согласен на обработку персональных
-                                    данных</label>
+
+                                <input class="checkbox" id="checkbox" checked
+                                    type="checkbox">
+                                <label for="checkbox"
+                                    class="label-checkbox">Согласен на обработку
+                                    персональных данных</label>
+
                             </form>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <section class="display">
+                <div class="container">
+                    <div class="display-wrapper">
+                        <div class="hp">
+                            
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="./images/hp-desc.png">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/hp-tab.png">
+                                <source media="(min-width: 320px)"
+                                    srcset="./images/hp-mob.png">
+                                <img src="./images/hp-mob.png" alt="display">
+                            </picture>
+
+
+                            <div class="display__icons">
+                                <img src="./images/hp.svg" alt="hp">
+                                <img src="./images/X-icon.svg" alt="X-icon">
+                                <img src="./images/logo.svg" alt="logo">
+                            </div>
+                        </div>
+                        <div class="display__about">
+                            <h3 class="display__title">Полное погружение вместе
+                                с HP</h3>
+                            <p class="display__desc">Погрузись в современные
+                                экшен-игры с реалистичным изображением с помощью
+                                монитора с диагональю 23,8 дюйма, созданном для
+                                отображения максимально насыщенных цветов.
+                                Успевай реагировать на любые события с временем
+                                отклика 1 мс и частотой в 144 Гц!
+                            </p>
+                            <ul class="display__list">
+                                <li class="display__item color">Яркие насыщенные
+                                    цвета</li>
+                                <li class="display__item star">Кристальная
+                                    четкость изображения</li>
+                                <li class="display__item fps">Быстрые движения и
+                                    плавный геймплей</li>
+                            </ul>
+                            <button class="display__btn"> Подробнее </button>
                         </div>
                     </div>
                 </div>
             </section>
 
-        </div>
-    </main>
+        </main>
 
-
-
-</body>
-
+    </body>
 </html>
