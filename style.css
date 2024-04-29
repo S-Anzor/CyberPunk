@@ -676,6 +676,9 @@ label {
   gap: 25px;
 }
 
+.buy {
+  background-color: #000;
+}
 .buy-bg {
   min-height: 200px;
   width: 100%;
@@ -710,22 +713,34 @@ label {
     padding-bottom: 0;
   }
 }
+@media (min-width: 1024px) {
+  .buy-wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+  }
+}
 .buy-about {
   padding: 0 12px;
 }
-.buy__title {
+@media (min-width: 780px) {
+  .buy-about {
+    max-width: 500px;
+  }
+}
+.buy-about__title {
   font-weight: 400;
   font-size: 30px;
   color: #fff;
   font-family: "Archangelsk";
   margin-bottom: 30px;
 }
-.buy__list {
-  display: flex;
-  gap: 18px;
-  flex-direction: column;
-  padding-left: 30px;
-  margin-bottom: 30px;
+@media (min-width: 780px) {
+  .buy-about__title {
+    font-weight: 400;
+    font-size: 62px;
+    color: #fff;
+    margin-top: 70px;
+  }
 }
 .buy__item {
   font-weight: 400;
@@ -743,6 +758,18 @@ label {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.buy__list {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+@media (min-width: 780px) {
+  .buy__list {
+    max-width: 500px;
+  }
 }
 
 .disc::before {

@@ -669,6 +669,8 @@ label {
 }
 
 .buy {
+  background-color: #000;
+
   &-bg {
     min-height: 200px;
     width: 100%;
@@ -700,26 +702,37 @@ label {
       display: flex;
       padding-bottom: 0;
     }
+
+    @media(min-width: 1024px) {
+      max-width: 1920px;
+      margin: 0 auto;
+    }
+
+
   }
 
   &-about {
     padding: 0 12px;
-  }
 
-  &__title {
-    font-weight: 400;
-    font-size: 30px;
-    color: #fff;
-    font-family: "Archangelsk";
-    margin-bottom: 30px;
-  }
+    @media(min-width: 780px) {
+      max-width: 500px;
+    }
 
-  &__list {
-    display: flex;
-    gap: 18px;
-    flex-direction: column;
-    padding-left: 30px;
-    margin-bottom: 30px;
+    &__title {
+      font-weight: 400;
+      font-size: 30px;
+      color: #fff;
+      font-family: "Archangelsk";
+      margin-bottom: 30px;
+
+      @media(min-width: 780px) {
+        font-weight: 400;
+        font-size: 62px;
+        color: #fff;
+        margin-top: 70px;
+      }
+    }
+
   }
 
   &__item {
@@ -740,41 +753,53 @@ label {
       background-size: cover;
     }
   }
-}
 
-.disc::before {
-  background-image: url(./images/disk.svg);
-}
-
-.vector::before {
-  background-image: url(./images/Vector.svg);
-}
-
-.images-icon::before {
-  background-image: url(./images/image.svg);
-}
-
-.buy__desc {
-  margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 20px;
-  color: #52bedc;
-}
-
-.buy__icons {
-  padding: 0 12px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 56px;
-  row-gap: 48px;
-}
-
-.buy-wrapper2 {
-  @media(min-width: 780px) {
+  &__list {
     display: flex;
+    gap: 18px;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    height: 100%;
+    padding-left: 30px;
+    margin-bottom: 30px;
+
+    @media(min-width: 780px) {
+      max-width: 500px;
+    }
   }
 }
+  .disc::before {
+    background-image: url(./images/disk.svg);
+  }
+
+  .vector::before {
+    background-image: url(./images/Vector.svg);
+  }
+
+  .images-icon::before {
+    background-image: url(./images/image.svg);
+  }
+
+  .buy__desc {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #52bedc;
+  }
+
+  .buy__icons {
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 56px;
+    row-gap: 48px;
+  }
+
+  .buy-wrapper2 {
+    @media(min-width: 780px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      height: 100%;
+    }
+  }
+  
