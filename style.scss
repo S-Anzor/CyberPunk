@@ -766,40 +766,97 @@ label {
     }
   }
 }
-  .disc::before {
-    background-image: url(./images/disk.svg);
-  }
 
-  .vector::before {
-    background-image: url(./images/Vector.svg);
-  }
+.disc::before {
+  background-image: url(./images/disk.svg);
+}
 
-  .images-icon::before {
-    background-image: url(./images/image.svg);
-  }
+.vector::before {
+  background-image: url(./images/Vector.svg);
+}
 
-  .buy__desc {
-    margin-bottom: 20px;
-    font-weight: 700;
-    font-size: 20px;
-    color: #52bedc;
-  }
+.images-icon::before {
+  background-image: url(./images/image.svg);
+}
 
-  .buy__icons {
-    padding: 0 12px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 56px;
-    row-gap: 48px;
-  }
+.buy__desc {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #52bedc;
+}
 
-  .buy-wrapper2 {
-    @media(min-width: 780px) {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-      height: 100%;
-    }
+.buy__icons {
+  padding: 0 12px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 56px;
+  row-gap: 48px;
+}
+
+.buy-wrapper2 {
+  @media(min-width: 780px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
   }
-  
+}
+
+.footer-links {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  @media(min-width: 780px) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-icon {
+  width: 200px;
+  height: 50px;
+
+  @media(min-width: 780px) {
+    width: 300px;
+    height: 74px;
+  }
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+
+  @media(min-width: 780px) {
+    font-size: 16px;
+  }
+}
+
+.footer-logo {
+  width: 116px;
+  height: 60px;
+
+  @media(min-width: 780px) {
+    width: 172px;
+    height: 74px;
+    margin-right: auto;
+  }
+}
+
+.about-project {
+  padding: 13px 0;
+  background-color: #000;
+}
+
+.about-project__desc {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+}

@@ -808,4 +808,65 @@ label {
     justify-content: space-between;
     height: 100%;
   }
+}
+
+.footer-links {
+  padding-top: 40px;
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+@media (min-width: 780px) {
+  .footer-links {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-icon {
+  width: 200px;
+  height: 50px;
+}
+@media (min-width: 780px) {
+  .footer-icon {
+    width: 300px;
+    height: 74px;
+  }
+}
+
+.footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+}
+@media (min-width: 780px) {
+  .footer-link {
+    font-size: 16px;
+  }
+}
+
+.footer-logo {
+  width: 116px;
+  height: 60px;
+}
+@media (min-width: 780px) {
+  .footer-logo {
+    width: 172px;
+    height: 74px;
+    margin-right: auto;
+  }
+}
+
+.about-project {
+  padding: 13px 0;
+  background-color: #000;
+}
+
+.about-project__desc {
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
